@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+form {
+  position: relative;
+  left: 100px;
+  right: 100px;
+}
+
+input {
+  position: relative;
+  opacity: 100%;
+}
+
+input[type="text"] {
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  position: relative;
+  top: 80px;
+  right: 86px;
+  height: 50px;
+  border-radius: 5px;
+  opacity: 100%;
+  border: 0px solid;
+  width: 140px;
+  color: gray;
+  -webkit-box-shadow: 0px;
+          box-shadow: 0px;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid;
+  color: black;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 4px lightgray;
+          box-shadow: 0px 0px 4px lightgray;
+}
+
+.links {
+  position: relative;
+  bottom: 47%;
+  right: -28%;
+  padding: 5px;
+}
+
+.titulo {
+  position: absolute;
+  top: 30%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  position: relative;
+  top: -100px;
+  left: -530px;
+}
+
+input[class="formularios"] {
+  position: relative;
+  top: 0px;
+  left: 305px;
+}
+
+.forms {
+  left: 50px;
+}
+/*# sourceMappingURL=styleIndex.css.map */

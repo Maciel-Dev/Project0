@@ -36,8 +36,8 @@ input[type="text"]{
   
 input[type="submit"] {
     position: relative;
-    top: 70px;
-    right: 176px;
+    top: 80px;
+    right: 86px;
     height: 50px;
     border-radius: 5px;
     opacity: 100%;
@@ -57,7 +57,8 @@ input[type="submit"]:hover{
 .links{
     position: relative;
     bottom: 47%;
-    right: -35%;
+    right: -28%;
+    padding: 5px;
 }
 
 .titulo{
@@ -69,16 +70,15 @@ input[type="submit"]:hover{
 .logo{
     position: relative;
     top: -100px;
-    left: -370px;
+    left: -530px;
 }
 
 input[class="formularios"]{
     position: relative;
     top: 0px;
-    left: 150px;
+    left: 305px;
 }
 
 .forms {
     left: 50px;
-    ;
 }
