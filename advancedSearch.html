@@ -2,11 +2,28 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="advancedStyle.css">
     </head>
     <body>
-        <form method="GET" action="http://images.google.com/images">
-            <input type="text" name="q">
-            <input type="submit" value="Search Google Image">
+        <form class = 'forms' method="GET" action="https://google.com/search">
+            <div>
+                <input type="text" id="allThese" name="as_q">
+                <label for="allThese">All these words</label><br>
+            </div>
+            <div>
+                <input type="text" id="thisExact" name="as_epq">
+                <label for="allThese">This exact word or phrase</label><br>
+            </div>
+            <div>
+                <input type="text" id="anyThese" name="as_oq">
+                <label for="allThese">any of these words</label><br>
+            </div>
+            <div>
+                <input type="text" id="noneThese" name="as_eq">
+                <label for="allThese">none of these words</label><br>
+            </div>
+            
+            <input type='submit' value='Advanced Search'>
         </form>
 
 
